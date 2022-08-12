@@ -18,6 +18,7 @@ class Point
         self.y = y
 ```
 - It contains at least an init function as it hold the minimum parameter of the object we are creating
+- Self in a class is the variable that holds the object instance that is being created by that class
 
 Example of Object Instance
 ```python
