@@ -14,9 +14,9 @@ class Point:
     def distance(self, otherpoint):
         distancex = otherpoint.x - self.x
         distancey = otherpoint.y - self.y
-        total = ((distancex)**2  + (distancey)**2) ** 0.5
+        return ((distancex)**2  + (distancey)**2) ** 0.5
 
-        return total
+
 
 
 def main():
