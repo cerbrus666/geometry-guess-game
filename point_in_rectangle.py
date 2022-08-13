@@ -23,6 +23,9 @@ class Rectangle:
         self.lowleft = lowleft
         self.upright = upright
 
+    def area(self):
+        return (self.upright.x - self.lowleft.x) * (self.upright.y - self.lowleft.y)
+
 
 def main():
     point2 = Point(3, 4)
@@ -32,6 +35,7 @@ def main():
     point4 = Point(5, 6)
     rectangle_obj = Rectangle(Point(3, 4), Point(7, 8))
     print(point4.falls_in_rectangle(rectangle_obj))
+    print("The area of rectangle object is:", rectangle_obj.area())
 
 
 main()
